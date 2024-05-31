@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Basic Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <div class = "Calculator">
-    <input type = "text" placeholder="0" id="inputbox"readonly>
-    <div>
-        <button class="operator ac" >AC</button>
-        <button class="operator del">DEL</button>
-        <button class="operator">%</button>
-        <button class="operator">/</button>
+    <h1> TIC-TAC-TOE !
+    </h1>
+    <div class="game-board">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+    <div class="game-info">
+        <p id="game-status">Player X's turn</p>
+        <button id="restart-button">RESTART</button>
 
     </div>
-    <div>
-        <button >7</button>
-        <button>8</button> </button>
-        <button >9</button>
-        <button class="operator">*</button>
-
+    <script src="script.js"></script>
+    <h3>follow Me !</h3>
+    <div class="social-buttons">
+        <a href="https://www.instagram.com/prdip01" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/pradeep-kumar-53a9502a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" class="social-icon">
+        </a>
     </div>
-    <div>
-        <button >4</button>
-        <button>5</button> </button>
-        <button >.</button>
-        <button class="equalBtn">=</button>
-
-    </div>
-    <div>
-        <button >00</button>
-        <button>0</button> </button>
-        <button >9</button>
-        <button class="operator">*</button>
-
-    </div>
-
-    <div>
-        <button >1</button>
-        <button>2</button> </button>
-        <button >3</button>
-        <button class="operator">*</button>
-
-    </div>
-
-
- </div> 
-<script src="script.js"></script>
+    
 </body>
 </html>
+
